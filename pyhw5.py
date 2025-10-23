@@ -14,7 +14,10 @@ my_dict={
 }
 for x,y in my_dict.items():
     print(x,y)
-new_dict= {x: str(y) + "fullstack" for x,y in my_dict.items()}
+
+
+
+new_dict= {x: (y) + "fullstack" for x,y in my_dict.items()}
 print(new_dict)
 
 
